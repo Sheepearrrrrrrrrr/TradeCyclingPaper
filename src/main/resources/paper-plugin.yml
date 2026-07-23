@@ -1,0 +1,9 @@
+name: TradeCycling
+description: $description
+version: '${version}'
+
+main: eu.sheepearrr.tradecycling.TradeCycling
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ Sheepearrr ]
