@@ -23,7 +23,7 @@ import java.lang.reflect.Method
 
 class TradeCycling : JavaPlugin(), Listener {
     companion object {
-        const val VERSION = "1.0+26.2"
+        const val VERSION = "1.0+26.1.2"
         val PAYLOAD = Identifier.fromNamespaceAndPath("trade_cycling", "cycle_trades")
         // Reflection
         val TRADER_FIELD: Field = MerchantMenu::class.java.getDeclaredField("trader").apply { this.isAccessible = true }
