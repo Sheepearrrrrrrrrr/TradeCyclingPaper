@@ -45,7 +45,7 @@ class TradeCycling : JavaPlugin(), Listener {
         val player = (event.player as CraftPlayer).handle
         player.connection.connection.channel.pipeline().addBefore("packet_handler", "trade_cycling_${event.player.name}", object : ChannelDuplexHandler() {
             override fun channelRead(context: ChannelHandlerContext?, packet: Any?) {
-                if (packet !is ServerboundCustomPayloadPacket || packet.payload.type().id != PAYLOAD || player.containerMenu !is MerchantMenu) {
+                if (packet is ServerboundCustomPayloadPacket && packet.payload.type().id == PAYLOAD && player.containerMenu is MerchantMenu) {
                     Bukkit.getScheduler().runTask(INSTANCE, Runnable {
                         val container = player.containerMenu as MerchantMenu
                         val merchant = TRADER_FIELD.get(container) as Merchant
