@@ -16,7 +16,7 @@ Use the [Trade Cycling mod by Max Henkel](https://modrinth.com/mod/trade-cycling
 
 ## Installation & Usage
 
-1. Download the `.jar` for your version from the [Releases](https://github.com/your-repo/releases) page.
+1. Download the `.jar` for your version from the [Releases](https://github.com/Sheepearrrrrrrrrr/TradeCyclingPaper/releases) page.
 2. Drop it into your server's `plugins/` folder and restart the server.
 3. Open a villager trading GUI and press the cycle trades keybind (configured in the client mod) or click the widget.
 
