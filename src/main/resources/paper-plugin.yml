@@ -3,7 +3,7 @@ description: $description
 version: '${version}'
 
 main: eu.sheepearrr.tradecycling.TradeCycling
-api-version: '26.2'
+api-version: '26.3'
 load: POSTWORLD
 
 authors: [ Sheepearrr ]

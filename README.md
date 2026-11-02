@@ -7,7 +7,7 @@ Use the [Trade Cycling mod by Max Henkel](https://modrinth.com/mod/trade-cycling
 
 ## Requirements
 
-* **Server:** Paper 1.21.11+ (or forks like Purpur)
+* **Server:** Paper 26.3+ (or forks like Purpur)
 * **Client:** Players who want to cycle trades **must** have the [Trade Cycling Mod](https://modrinth.com/mod/trade-cycling) installed in their Minecraft client.
 
 > **Note:** Players without the mod can still join the server normally, but they will not be able to use the trade cycling keybind or widget.
